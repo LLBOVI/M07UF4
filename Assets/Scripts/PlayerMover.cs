@@ -20,7 +20,7 @@ public class PlayerMover : MonoBehaviour
     private float _currentFallSpeed = 0f;
 
     private CharacterController _controller;
-    [SerializeField] private Vector3 _moveDirection = Vector3.zero;
+     public Vector3 _moveDirection = Vector3.zero;
     public float _vertical;
     public float _horizontal;
 
@@ -46,7 +46,8 @@ public class PlayerMover : MonoBehaviour
     private void FixedUpdate()
     {
         Grounded = _controller.isGrounded;
-
+        if (canMove)
+        {
         _vertical = _joystick.Vertical;// + Input.GetAxis("Vertical");
         _horizontal = _joystick.Horizontal;
         input = Mathf.Abs(_vertical) + Mathf.Abs(_horizontal);
@@ -54,12 +55,12 @@ public class PlayerMover : MonoBehaviour
         //Vector3 cameraForward = Vector3.Scale(_cameraTransform.forward, new Vector3(1, 0, 1)).normalized;
         //Vector3 moveDirection = _vertical * cameraForward + _horizontal * _cameraTransform.right;
         Vector3 moveDirection = _vertical * _cameraTransform.forward + _horizontal * _cameraTransform.right;
-        if (canMove)
-        {
+
             _moveDirection.x = moveDirection.x * _moveSpeed;
             _moveDirection.z = moveDirection.z * _moveSpeed;
+                    _moveDirection.x = moveDirection.x * _moveSpeed; _moveDirection.z = moveDirection.z * _moveSpeed;
+
         }
-        _moveDirection.x = moveDirection.x * _moveSpeed; _moveDirection.z = moveDirection.z * _moveSpeed;
 
         if (_controller.isGrounded)
         {
