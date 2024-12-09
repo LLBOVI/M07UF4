@@ -168,8 +168,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Orbs: 0
   Coins: 0
-  CoinText: {fileID: 0}
-  OrbText: {fileID: 0}
+  CoinText: {fileID: 1573705528}
+  OrbText: {fileID: 1605640416}
 --- !u!4 &302870848 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a54180866677b47e5951fce01682a4eb, type: 3}
@@ -335,9 +335,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6896635258f19457b8cbba091ca481f1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1586173187}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6896635258f19457b8cbba091ca481f1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1586173188}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6896635258f19457b8cbba091ca481f1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1586173189}
@@ -1017,7 +1014,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.70980287, y: 1.0295376, z: 1.9240806}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1051,21 +1048,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53258ad9ad6e71e48bb8643c9522112e, type: 3}
+  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ExcludedPropertiesInInspector:
-  - m_Script
-  m_LockStageInInspector: 
-  m_StreamingVersion: 20170927
-  m_Priority: 10
-  m_StandbyUpdate: 2
-  m_LookAt: {fileID: 2061162296}
-  m_Follow: {fileID: 2061162296}
   m_ShowDebugText: 0
-  m_Loop: 0
-  m_ChildCameras: []
-  m_Instructions: []
+  m_ShowCameraFrustum: 1
+  m_IgnoreTimeScale: 0
+  m_WorldUpOverride: {fileID: 0}
+  m_UpdateMethod: 2
+  m_BlendUpdateMethod: 1
+  m_DefaultBlend:
+    m_Style: 1
+    m_Time: 2
+    m_CustomCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  m_CustomBlends: {fileID: 0}
+  m_CameraCutEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_CameraActivatedEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1039433875
 GameObject:
   m_ObjectHideFlags: 0
@@ -1609,33 +1616,6 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.009999998
   m_Center: {x: -0.000000003259629, y: 0.0000000032596283, z: 7.990565e-24}
---- !u!54 &1586173188
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1586173182}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &1586173189
 MonoBehaviour:
   m_ObjectHideFlags: 0

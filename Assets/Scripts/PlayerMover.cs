@@ -161,7 +161,7 @@ public class PlayerMover : MonoBehaviour
 
         //GetComponent<Animator>().Play("Jumping", -1, 0);
         jumping = true;
-        _timeSinceGrounded = 1;
+        _timeSinceGrounded = 0;
         _currentFallSpeed = 3;
         //_jumpingTime = 0.5f;
         //AudioManager.PlayJump();

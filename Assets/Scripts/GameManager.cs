@@ -26,12 +26,12 @@ private void Awake()
 public void OrbCollected()
 {
     Orbs++;
-    OrbText.text = "Orbs" + Orbs;
+    OrbText.text = "Orbs: " + Orbs;
 }
 
 public void CoinCollected()
 {
     Coins++;
-    CoinText.text = "Coins" + Coins;
+    CoinText.text = "Coins: " + Coins;
 }
 }

@@ -14,6 +14,7 @@ public class OrbCollector : MonoBehaviour
     private void OnTriggerEnter(Collider other) 
     {
         if(other.gameObject.TryGetComponent<ICollectable>(out ICollectable icoll))
+        {
         if(other.GetComponent<Eye>() != null)
         {
             _animator.SetTrigger("Collected");
@@ -22,6 +23,8 @@ public class OrbCollector : MonoBehaviour
             GetComponent<PlayerMover>().canMove = false;
         } 
             icoll.OnCollected();    
+        }
+
 
     }
 }
