@@ -109,6 +109,7 @@ public class PlayerMover : MonoBehaviour
     }
     private void Update()
     {
+        _animator.SetBool("Grounded", _controller.isGrounded);
         if (canMove)
         {
             if (_jumpingTime > 0) _jumpingTime -= Time.deltaTime;
@@ -127,7 +128,6 @@ public class PlayerMover : MonoBehaviour
     private void animate()
     {
 
-        _animator.SetBool("Grounded", !jumping && (_controller.isGrounded || _timeSinceGrounded < _coyoteTime));
         //_animator.SetBool("InWater", inWater);
 
         if (_controller.isGrounded)
@@ -171,7 +171,7 @@ public class PlayerMover : MonoBehaviour
     }
     public IEnumerator StopJumping()
     {
-        yield return new WaitForSeconds(0.7f);
+        yield return new WaitForSeconds(0.5f);
         _animator.SetBool("Jumping", false);
         _moveDirection.y = _jumpForce;
         yield return new WaitForSeconds(_jumpingTime - 0.75f);
