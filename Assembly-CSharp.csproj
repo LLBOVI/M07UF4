@@ -68,6 +68,7 @@
     <Compile Include="Assets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs" />
     <Compile Include="Assets/Scripts/PlayerMover.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
+    <Compile Include="Assets/Scripts/ExcelReader.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
     <Compile Include="Assets/Victory.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />

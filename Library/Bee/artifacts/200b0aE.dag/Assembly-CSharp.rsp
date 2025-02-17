@@ -369,6 +369,7 @@
 "Assets/Scripts/Coin.cs"
 "Assets/Scripts/CoinCollector.cs"
 "Assets/Scripts/CollectableAnimation.cs"
+"Assets/Scripts/ExcelReader.cs"
 "Assets/Scripts/Eye.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/GroundChecker.cs"
