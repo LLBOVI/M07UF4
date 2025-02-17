@@ -377,6 +377,7 @@
 "Assets/Scripts/OrbCollector.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerMover.cs"
+"Assets/Scripts/Victory.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
@@ -411,7 +412,6 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
-"Assets/Victory.cs"
 -langversion:9.0
 /deterministic
 /optimize+
