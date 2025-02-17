@@ -931,3 +931,103 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 359.565329 seconds.
+  path: Assets/Materials/Stone floor/Stonefloor.mat
+  artifactKey: Guid(a60efaa6a287247d1b168716b087f88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stone floor/Stonefloor.mat using Guid(a60efaa6a287247d1b168716b087f88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b0b33d57e97efd8d4aa89970f2cbd910') in 0.158310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1537.957992 seconds.
+  path: Assets/Materials/Gold.mat
+  artifactKey: Guid(f9cc74b5e03d94fb3aa46c40fec7041c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Gold.mat using Guid(f9cc74b5e03d94fb3aa46c40fec7041c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e48cd66174d66e00d30a8f638b5d59e5') in 0.024027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 37.211099 seconds.
+  path: Assets/Materials/Stone floor/Stone.mat
+  artifactKey: Guid(a60efaa6a287247d1b168716b087f88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stone floor/Stone.mat using Guid(a60efaa6a287247d1b168716b087f88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cf1230f29e6db7b03e871329b2d102fd') in 0.014015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 388.218829 seconds.
+  path: Assets/Materials/Stone floor/stylized-chunky-rockface_ao.png
+  artifactKey: Guid(810d79d22dcef44bba8314cde81adb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stone floor/stylized-chunky-rockface_ao.png using Guid(810d79d22dcef44bba8314cde81adb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6acd2933fdc12f4e39d1296560739b7d') in 0.111223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Materials/Stone floor/stylized-chunky-rockface_metallic.psd
+  artifactKey: Guid(5f720bcfbe60a4667ae05842c1efcf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stone floor/stylized-chunky-rockface_metallic.psd using Guid(5f720bcfbe60a4667ae05842c1efcf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a77f835d9b2e30c27ed4a288825669e5') in 0.005796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Materials/Stone floor/stylized-chunky-rockface_normal-ogl.png
+  artifactKey: Guid(fe61233669bcd411493864e952feb317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stone floor/stylized-chunky-rockface_normal-ogl.png using Guid(fe61233669bcd411493864e952feb317) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '755e1dcac92b42c6494235edc73470fb') in 0.004497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.945374 seconds.
+  path: Assets/Materials/Stone floor/stylized-chunky-rockface_albedo.png
+  artifactKey: Guid(0c675dba0e0e64a89a3da3b47e3be95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stone floor/stylized-chunky-rockface_albedo.png using Guid(0c675dba0e0e64a89a3da3b47e3be95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c3b6a5b4c54e0c401f14c4778f6f0a65') in 0.019717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 400.543648 seconds.
+  path: Assets/Materials/Gold.mat
+  artifactKey: Guid(f9cc74b5e03d94fb3aa46c40fec7041c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Gold.mat using Guid(f9cc74b5e03d94fb3aa46c40fec7041c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fdb514c9d2cf8ef545949a392b57126e') in 0.048128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.164701 seconds.
+  path: Assets/Materials/Stone floor/Stone.mat
+  artifactKey: Guid(a60efaa6a287247d1b168716b087f88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stone floor/Stone.mat using Guid(a60efaa6a287247d1b168716b087f88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1bf4c7c4a4e9ad117821d1a4e49b5fb5') in 0.359661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 135.987989 seconds.
+  path: Assets/Materials/Stone floor/Stone.mat
+  artifactKey: Guid(a60efaa6a287247d1b168716b087f88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stone floor/Stone.mat using Guid(a60efaa6a287247d1b168716b087f88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd272dfad2a2c7691329f0d376d12cbd3') in 0.205190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6

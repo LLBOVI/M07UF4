@@ -832,3 +832,23 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3579.187746 seconds.
+  path: Assets/Materials/Stone floor/stylized-chunky-rockface_height.png
+  artifactKey: Guid(119198c84f365478c89aaf7554dd16f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stone floor/stylized-chunky-rockface_height.png using Guid(119198c84f365478c89aaf7554dd16f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '15d6fdd0337cefe7bea1fac2a377e95a') in 0.166833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 408.677197 seconds.
+  path: Assets/Materials/Stone floor/stylized-chunky-rockface_normal-ogl.png
+  artifactKey: Guid(fe61233669bcd411493864e952feb317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stone floor/stylized-chunky-rockface_normal-ogl.png using Guid(fe61233669bcd411493864e952feb317) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00082cadb1335ad7201e56cfdeb73151') in 0.084264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
