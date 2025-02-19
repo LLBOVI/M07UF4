@@ -71,6 +71,7 @@
     <Compile Include="Assets/Scripts/ExcelReader.cs" />
     <Compile Include="Assets/Scripts/Serius Game/Enemy.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
+    <Compile Include="Assets/Scripts/Serius Game/EnemyDetectorGreen.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
@@ -121,6 +122,7 @@
     <Compile Include="Assets/Scripts/CameraController.cs" />
     <Compile Include="Assets/Joystick Pack/Examples/JoystickPlayerExample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets/Scripts/Serius Game/EnemyDestroyer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

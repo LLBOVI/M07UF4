@@ -379,6 +379,8 @@
 "Assets/Scripts/PlayerMover.cs"
 "Assets/Scripts/Serius Game/EmotionChooser.cs"
 "Assets/Scripts/Serius Game/Enemy.cs"
+"Assets/Scripts/Serius Game/EnemyDestroyer.cs"
+"Assets/Scripts/Serius Game/EnemyDetectorGreen.cs"
 "Assets/Scripts/Serius Game/EnemySpawner.cs"
 "Assets/Scripts/Victory.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

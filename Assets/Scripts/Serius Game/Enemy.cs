@@ -21,6 +21,7 @@ public class Enemy : MonoBehaviour
     { 
         transform.position = new Vector3(Random.Range(-100, 100),0,Random.Range(-50, 100));
         emocion = Random.Range(1, 6);
+        gameObject.tag = "Enemy_" + emocion;
         
         if(emocion == 1)
         {
@@ -72,5 +73,5 @@ public class Enemy : MonoBehaviour
         Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * speed);
     }
-    
+
 }
