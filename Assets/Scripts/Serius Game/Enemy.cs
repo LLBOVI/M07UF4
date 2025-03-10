@@ -13,7 +13,8 @@ public class Enemy : MonoBehaviour
     public GameObject confusión;
     public GameObject enfado;
     public GameObject miedo; 
-    
+    public Person person;
+    public List<SentimentSO> sentiments;
     public Transform targetPosition;
     public float speed = 10f;
 
@@ -64,6 +65,7 @@ public class Enemy : MonoBehaviour
             miedo.SetActive(true);
             animator.SetLayerWeight(emocion, 1);
         }
+        person.sentiment = sentiments[emocion];
 
     }
     void Update() 

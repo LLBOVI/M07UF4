@@ -10,14 +10,15 @@ public class EnemySpawner : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("SpawnPrefab", 0f, spawnInterval);
+        //InvokeRepeating("SpawnPrefab", 0f, spawnInterval);
     }
     void Update()
     {
-        transform.position = new Vector3(Random.Range(-100, 100),0,Random.Range(-50, 100));
+       // transform.position = new Vector3(Random.Range(-100, 100),0,Random.Range(-50, 100));
     }
     void SpawnPrefab()
     {
-        Instantiate(prefab, spawnPoint.position, spawnPoint.rotation);
+                Instantiate(prefab, spawnPoint.position, spawnPoint.rotation);
+
     }
 }

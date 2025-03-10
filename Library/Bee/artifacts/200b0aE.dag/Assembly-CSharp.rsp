@@ -382,6 +382,8 @@
 "Assets/Scripts/Serius Game/EnemyDestroyer.cs"
 "Assets/Scripts/Serius Game/EnemyDetectorGreen.cs"
 "Assets/Scripts/Serius Game/EnemySpawner.cs"
+"Assets/Scripts/Serius Game/Person.cs"
+"Assets/Scripts/Serius Game/SentimentSO.cs"
 "Assets/Scripts/Victory.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
